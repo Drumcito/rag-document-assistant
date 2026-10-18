@@ -1,0 +1,8 @@
+# Librerías del proyecto. Se instalan con:  pip install -r requirements.txt
+google-genai        # SDK oficial de Google para usar Gemini (el LLM y los embeddings)
+faiss-cpu           # Base vectorial local para buscar los fragmentos más parecidos a la pregunta
+numpy               # Manejo de los vectores (listas de números)
+fastapi             # Para exponer el asistente como una API web
+uvicorn             # Servidor que ejecuta la app de FastAPI
+python-dotenv       # Para leer la API key desde el archivo .env
+pydantic            # Validación de los datos que entran y salen de la API

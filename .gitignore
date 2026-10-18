@@ -1,0 +1,21 @@
+# --- Secretos: NUNCA subir la API key a GitHub ---
+.env
+
+# --- Entorno virtual de Python ---
+.venv/
+venv/
+
+# --- Archivos generados por la ingesta (se regeneran corriendo ingesta.py) ---
+indice.faiss
+fragmentos.json
+
+# --- Documentos personales de postulación (no son parte del proyecto) ---
+carta_presentacion.md
+cv_adaptado.md
+plan_portafolio_ia.md
+
+# --- Basura de Python / editores ---
+__pycache__/
+*.pyc
+.vscode/
+.idea/
