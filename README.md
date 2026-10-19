@@ -46,14 +46,4 @@ python probar.py
 # 5b. O levantar la API y abrir http://127.0.0.1:8000/docs
 uvicorn app:app --reload
 ```
-
-## Seguridad
-El prompt instruye al modelo a **ignorar instrucciones dentro de los documentos**
-(los trata como datos, no como órdenes), como mitigación básica de inyección de
-prompts. La API key se lee de `.env`, que está en `.gitignore` y nunca se sube.
-
 ## Resultados y limitaciones
-<!-- Completa esta sección al terminar: anota 5-10 preguntas de prueba con la
-respuesta esperada, los tiempos de respuesta aproximados y qué mejorarías
-(p. ej. mejor chunking, reranking, más documentos). Esto es justo lo que un
-reclutador de Data/IA quiere ver que sabes explicar. -->
